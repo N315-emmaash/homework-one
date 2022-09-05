@@ -1,0 +1,45 @@
+footer{
+    width: 100%;
+    min-height: 400px;
+    background-color: black;
+
+     .white-logo{
+        margin: 0 auto;
+        margin-top: 20px;
+        height: 100px;
+        min-width: 100%;
+     }
+
+
+
+
+     .address1{
+        padding-top: 15px;
+
+        p{
+            margin: 0 auto;
+            width: 500px;
+            color: white;
+            font-family: "alternate-gothic-no-3-d",sans-serif;
+            font-size: 15px;
+            text-align: center;
+    
+         }
+
+     }
+     .footer-social-icons{
+        padding-top: 25px;
+        margin: 0 auto;
+        width: 150px;
+        height: 30px;
+        color: #fff;
+        font-size: 30px;
+         display: flex;
+         align-items: center; 
+         justify-content: space-evenly;
+
+    }
+     
+
+
+}

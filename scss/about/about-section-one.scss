@@ -1,0 +1,47 @@
+.about-section-one{
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 1180px;
+    // background-color: aquamarine;
+
+    .hero-image{
+        margin: 0 auto;
+        min-height: 550px;
+        width: 100%;
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(../images/pexels-mariana-kurnyk-1756062.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        .header-text{
+            padding-top: 200px;
+            margin: 0 auto;
+            min-width: 400px;
+
+            hr{
+                margin: 0 auto;
+                border: 1px solid white;
+                width: 40px;
+                margin-bottom: 10px;
+             }
+
+            h1{
+            
+                text-transform: uppercase;
+                text-align: center;
+                color: white;
+                font-size: 75px;
+                font-family: "alternate-gothic-no-3-d",sans-serif;
+
+            }
+            h3{
+                
+                
+                text-align: center;
+                color: white;
+                font-size: 25px;
+
+            }
+        }
+    }
+}   

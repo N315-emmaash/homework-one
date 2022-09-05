@@ -1,0 +1,534 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  margin: 0 auto;
+  min-height: 150px;
+  width: 1180px;
+  background-color: white;
+}
+nav .links {
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 1120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .links .left-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .links .left-side .logo {
+  margin: 0 auto;
+  text-align: center;
+  height: 100px;
+}
+nav .links .left-side .logo img {
+  padding-top: 5px;
+  height: 100%;
+}
+nav .links .left-side .nav-text {
+  margin-top: 15px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .links .left-side .nav-text a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+}
+nav .links .left-side .nav-text a:hover {
+  font-size: 20px;
+}
+nav .links .left-side .nav-text .vl {
+  border-left: 2px solid black;
+  height: 25px;
+}
+nav .links .mapicon {
+  width: 35px;
+}
+nav .links .mapicon:hover {
+  width: 45px;
+}
+nav hr {
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 1180px;
+}
+
+footer {
+  width: 100%;
+  min-height: 400px;
+  background-color: black;
+}
+footer .white-logo {
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 100px;
+  min-width: 100%;
+}
+footer .address1 {
+  padding-top: 15px;
+}
+footer .address1 p {
+  margin: 0 auto;
+  width: 500px;
+  color: white;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+footer .footer-social-icons {
+  padding-top: 25px;
+  margin: 0 auto;
+  width: 150px;
+  height: 30px;
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.home-body-one {
+  margin: 0 auto;
+  min-height: 100%;
+  max-width: 1180px;
+}
+.home-body-one .hero-image {
+  margin: 0 auto;
+  min-height: 550px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/pexels-mariana-kurnyk-1756061.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-body-one .hero-image .header-text {
+  padding-top: 200px;
+  margin: 0 auto;
+  min-width: 400px;
+}
+.home-body-one .hero-image .header-text hr {
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 2px solid white;
+  width: 40px;
+}
+.home-body-one .hero-image .header-text p {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+}
+.home-body-one .hero-image .header-text h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-size: 75px;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+}
+.home-body-one .hero-image .header-text h3 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.home-body-two {
+  margin: 0 auto;
+  margin-top: -150px;
+  min-height: 600px;
+  max-width: 700px;
+  background-color: white;
+  padding-top: 10px;
+}
+.home-body-two hr {
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 1px solid black;
+  width: 85%;
+}
+.home-body-two .thick-line {
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 85%;
+}
+.home-body-two .online-store {
+  padding-top: 40px;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+.home-body-two .online-store a {
+  color: maroon;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+}
+.home-body-two .online-store a:hover {
+  text-decoration: underline;
+}
+.home-body-two .middle-hr {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  width: 50px;
+}
+.home-body-two p {
+  margin: 0 auto;
+  width: 85%;
+  margin-top: 50px;
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+}
+.home-body-two h3 {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  margin: 0 auto;
+  width: 75%;
+  margin-bottom: 75px;
+}
+
+.about-section-one {
+  margin: 0 auto;
+  min-height: 100%;
+  max-width: 1180px;
+}
+.about-section-one .hero-image {
+  margin: 0 auto;
+  min-height: 550px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/pexels-mariana-kurnyk-1756062.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-section-one .hero-image .header-text {
+  padding-top: 200px;
+  margin: 0 auto;
+  min-width: 400px;
+}
+.about-section-one .hero-image .header-text hr {
+  margin: 0 auto;
+  border: 1px solid white;
+  width: 40px;
+  margin-bottom: 10px;
+}
+.about-section-one .hero-image .header-text h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-size: 75px;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+}
+.about-section-one .hero-image .header-text h3 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.about-section-two {
+  margin: 0 auto;
+  margin-top: -150px;
+  min-height: 600px;
+  max-width: 700px;
+  background-color: white;
+  padding-top: 10px;
+}
+.about-section-two hr {
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 1px solid black;
+  width: 85%;
+}
+.about-section-two .thick-line {
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 85%;
+}
+.about-section-two .online-store {
+  padding-top: 40px;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+.about-section-two .online-store a {
+  color: maroon;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+}
+.about-section-two .online-store a:hover {
+  text-decoration: underline;
+}
+.about-section-two .middle-hr {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  width: 50px;
+}
+.about-section-two p {
+  margin: 0 auto;
+  text-transform: uppercase;
+  width: 85%;
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+}
+.about-section-two h3 {
+  text-align: left;
+  color: black;
+  font-size: 25px;
+  margin: 0 auto;
+  width: 75%;
+  margin-bottom: 75px;
+}
+
+.about-section-three {
+  margin: 0 auto;
+  min-height: 300px;
+  max-width: 1180px;
+}
+.about-section-three .company-photos {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about-section-three .company-photos img {
+  padding-left: 10px;
+  min-height: 250px;
+  width: 350px;
+}
+.about-section-three .company-photos img:hover {
+  transform: scale(2);
+}
+
+.the-goods-body-one {
+  margin: 0 auto;
+  min-height: 100%;
+  max-width: 900px;
+  background-color: white;
+  padding-top: 10px;
+}
+.the-goods-body-one h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-size: 75px;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+}
+.the-goods-body-one hr {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  width: 85%;
+}
+.the-goods-body-one .thick-line {
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 85%;
+}
+.the-goods-body-one .item {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.the-goods-body-one .item .countryloaf {
+  height: 230px;
+  width: 230px;
+}
+.the-goods-body-one .item .text {
+  height: 230px;
+  width: 450px;
+}
+.the-goods-body-one .item .text p {
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: left;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+}
+.the-goods-body-one .item .text h3 {
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-bottom: 75px;
+}
+
+.the-goods-body-two {
+  margin: 0 auto;
+  min-height: 120px;
+  max-width: 900px;
+  background-color: white;
+  padding-top: 10px;
+}
+.the-goods-body-two p {
+  width: 85%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: left;
+  color: black;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+}
+.the-goods-body-two h3 {
+  width: 85%;
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.contact-section-one {
+  margin: 0 auto;
+  min-height: 100%;
+  max-width: 1180px;
+}
+.contact-section-one .hero-image {
+  margin: 0 auto;
+  min-height: 450px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/pexels-hissetmehurriyeti-9120377.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-section-two {
+  margin: 0 auto;
+  margin-top: -200px;
+  min-height: 600px;
+  max-width: 700px;
+  background-color: white;
+  padding-top: 10px;
+}
+.contact-section-two .sub-header-text hr {
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 1px solid black;
+  width: 85%;
+}
+.contact-section-two .sub-header-text .thick-line {
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 85%;
+}
+.contact-section-two .sub-header-text .thick-line-2 {
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 85%;
+  margin-bottom: 50px;
+}
+.contact-section-two .sub-header-text .middle-hr {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  width: 100px;
+}
+.contact-section-two .sub-header-text h1 {
+  margin-top: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+}
+.contact-section-two .sub-header-text .submit-button {
+  margin: 0 auto;
+  height: 40px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 25px;
+  background-color: black;
+}
+.contact-section-two .sub-header-text .submit-button a {
+  color: white;
+  font-size: 20px;
+  font-family: "alternate-gothic-no-3-d", sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+.contact-section-two .contact {
+  margin: 0 auto;
+  width: 85%;
+  min-height: 300px;
+}
+.contact-section-two .contact .contact-box {
+  max-width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.contact-section-two .contact .contact-box .contact-content {
+  position: absolute;
+  left: 0;
+  margin: 0 auto;
+  min-width: 85%;
+  height: 100%;
+}
+.contact-section-two .contact .contact-box .contact-content input[type=text] {
+  width: 100%;
+  min-height: 60px;
+  border: none;
+  background-color: white;
+  margin-top: 10px;
+  color: black;
+  font-size: 16px;
+}
+
+.mapouter {
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=styles.css.map */

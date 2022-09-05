@@ -1,0 +1,81 @@
+.the-goods-body-one{
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 900px;
+    background-color: white;
+    padding-top: 10px;
+
+    h1{
+            
+        text-transform: uppercase;
+        text-align: center;
+        color: black;
+        font-size: 75px;
+        font-family: "alternate-gothic-no-3-d",sans-serif;
+
+    }
+
+    hr{
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid black;
+        width: 85%;
+
+     }
+
+     .thick-line{
+        margin: 0 auto;
+        margin-top: 10px;
+        border: 2px solid black;
+        width: 85%;
+
+     }
+
+
+     .item{
+        width: 85%;
+        margin: 0 auto;
+         display: flex;
+         align-items: center; 
+         justify-content: space-evenly;
+         padding-top: 25px;
+         padding-bottom: 20px;
+
+        .countryloaf{
+            height: 230px;
+            width: 230px;
+
+        }
+
+        .text{
+            height: 230px;
+            width: 450px;
+
+            p{
+                margin: 0 auto;
+                text-transform: uppercase;
+                text-align: left;  
+                color: black;
+                margin-top: 50px;
+                margin-bottom: 10px;
+                font-size: 20px;
+                font-family: "alternate-gothic-no-3-d",sans-serif;
+            }
+        
+            h3{   
+                text-align: left;
+                color: black;
+                font-size: 16px;
+                margin: 0 auto;
+                margin-bottom: 75px;
+            }
+
+        }
+     }
+
+
+    
+     
+
+}

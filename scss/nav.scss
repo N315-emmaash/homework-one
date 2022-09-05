@@ -1,0 +1,82 @@
+nav{
+    margin: 0 auto;
+    min-height: 150px;
+    width: 1180px;
+    background-color:white;
+
+     .links{
+       padding-top: 20px;
+        margin: 0 auto;
+        width: 1120px;
+        display: flex;
+         align-items: center; 
+         justify-content: space-between;
+
+
+         .left-side{
+            
+             display: flex;
+             align-items: center; 
+             justify-content: space-evenly;
+            .logo{
+                margin: 0 auto;
+                text-align: center;
+                height: 100px;
+    
+                img{
+                    padding-top: 5px;
+                    height: 100%;
+                }
+
+                
+            }
+    
+            .nav-text{
+                margin-top: 15px;
+               width: 400px;
+             display: flex;
+             align-items: center; 
+             justify-content: space-evenly;
+    
+             a{
+                color:black;
+                font-size: 16px;
+                text-decoration: none;
+                font-family: "alternate-gothic-no-3-d",sans-serif;
+                
+            }
+
+            a:hover {
+                font-size: 20px;
+                
+            }
+    
+            .vl {
+                border-left: 2px solid black;
+                height: 25px;
+              }
+
+         }
+         
+        }
+        
+
+        .mapicon{
+            width: 35px;
+
+          }
+
+          .mapicon:hover{
+            width: 45px;
+          }
+
+     }
+
+     hr{
+        margin: 0 auto;
+        margin-top: 10px;
+        border: 2px solid black;
+        width: 1180px;
+     }
+    
+}
